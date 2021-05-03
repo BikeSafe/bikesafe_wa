@@ -5,13 +5,13 @@ import 'package:bikesafe_web/widgets/normal_text.dart';
 import 'package:bikesafe_web/widgets/title_text.dart';
 import 'package:flutter/material.dart';
 
-class TransportScreen extends StatefulWidget {
-  static String routeName = "TransportScreen";
+class TransCreateScreen extends StatefulWidget {
+  static String routeName = "TransCreateScreen";
   @override
-  _TransportScreenState createState() => _TransportScreenState();
+  _TransCreateScreenState createState() => _TransCreateScreenState();
 }
 
-class _TransportScreenState extends State<TransportScreen> {
+class _TransCreateScreenState extends State<TransCreateScreen> {
 
   var _lista = ['Bicicleta','Patineta','Scotter'];
   String _vista = 'Seleccione un tipo de transporte';
