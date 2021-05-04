@@ -1,4 +1,4 @@
-import 'package:bikesafe_web/screens/transport_create.dart';
+import 'package:bikesafe_web/screens/transport_list.dart';
 import 'package:bikesafe_web/utilities/theme/theme.dart';
 import 'package:flutter/material.dart';
 
@@ -8,7 +8,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   final routes = <String, WidgetBuilder>{
-    TransCreateScreen.routeName: (context) => TransCreateScreen()
+    TransListScreen.routeName: (context) => TransListScreen()
   };
 
   @override
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Bikesafe',
       theme: AwesomeTheme.awesomeTheme,
-      home: TransCreateScreen(),
+      home: TransListScreen(),
       routes: routes,
     );
   }
